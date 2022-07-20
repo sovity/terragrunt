@@ -6,7 +6,6 @@ package test
 import (
 	"bytes"
 	"fmt"
-	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
@@ -53,7 +52,7 @@ func TestWindowsTerragruntSourceMapDebug(t *testing.T) {
 			copyEnvironmentToPath(t, fixtureSourceMapPath, targetPath)
 			rootPath := filepath.Join(targetPath, fixtureSourceMapPath)
 
-			os.Setenv(
+			t.Setenv(
 				"TERRAGRUNT_SOURCE_MAP",
 				strings.Join(
 					[]string{
