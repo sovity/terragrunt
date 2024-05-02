@@ -29,10 +29,10 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/zclconf/go-cty v1.13.2
 	go.mozilla.org/sops/v3 v3.7.3
-	golang.org/x/crypto v0.17.0 // indirect
+	golang.org/x/crypto v0.21.0 // indirect
 	golang.org/x/oauth2 v0.13.0
 	golang.org/x/sync v0.4.0
-	golang.org/x/sys v0.15.0
+	golang.org/x/sys v0.18.0
 	google.golang.org/api v0.149.0
 )
 
@@ -67,7 +67,7 @@ require (
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/posener/complete v1.2.3
 	github.com/urfave/cli/v2 v2.25.5
-	golang.org/x/term v0.15.0
+	golang.org/x/term v0.18.0
 	golang.org/x/text v0.14.0
 	gopkg.in/ini.v1 v1.67.0
 )
@@ -201,7 +201,7 @@ require (
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
 	golang.org/x/mod v0.12.0 // indirect
-	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20231016165738-49dd2c1f3d0b // indirect
